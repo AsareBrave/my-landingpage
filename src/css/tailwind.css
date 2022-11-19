@@ -9,4 +9,7 @@
     .btn-regular{
         @apply p-3 font-semibold text-white w-[104px] rounded-lg shadow-lg cursor-pointer
     }
+   .btn-icons{
+    @apply hover:text-blue-text
+   }
   }
