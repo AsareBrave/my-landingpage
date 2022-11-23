@@ -7,7 +7,7 @@
       @apply text-black-text sm:text-black-text sm:hover:text-blue-text 
     }
     .btn-regular{
-        @apply p-3 font-semibold text-white w-[104px] rounded-lg shadow-lg cursor-pointer
+        @apply p-3 font-semibold text-white w-[120px] rounded-lg shadow-lg cursor-pointer border-none outline-none
     }
    .btn-icons{
     @apply hover:text-blue-text

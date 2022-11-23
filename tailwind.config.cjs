@@ -7,7 +7,10 @@ module.exports = {
         'blue-text': '#5754C5',
         'black-text': '#06060670',
         'pink-text': '#FF73B4'
-      }
+      },
+      fontFamily: {
+        'rubik': ['Proxima Nova'],
+      },
     },
   },
   plugins: [],

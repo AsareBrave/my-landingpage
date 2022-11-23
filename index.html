@@ -5,55 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Asare</title>
     <link rel="stylesheet" href="src/css/tailwind.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
-<body class="font-segoe-ui">
+<body class="font-['Montserrat']">
     <header>
         <div class="flex flex-row px-[20px] mt-[23px] justify-between items-center lg:justify-start">
             <div class="text-sm sm:text-xl lg:mr-[200px]">
                 <h1> <span class="font-bold">Asare</span> Emmanuel</h1>
             </div>
             <div class="space-x-2 text-[10px] flex flex-row self-center sm:text-sm sm:space-x-10">
-                <a href="#" class="btn-link">HOME</a>
+                <!-- <a href="#" class="btn-link">HOME</a> -->
                 <a href="#" class="btn-link">RESUME</a>
-                <a href="#" class="btn-link">WORKS</a>
-                <a href="#" class="btn-link">PROFILE</a>
-                <a href="#" class="btn-link">CONTACT</a>
+                <a href="#" class="btn-link">CONTACT ME</a>
             </div>
         </div>
     </header>
 
     <main>
         <div class="flex flex-col-reverse sm:flex-row">
-            <div class="mt-[75px] mx-[60px] sm:mx-[80px] sm:w-1/2">
+            <div class="mt-[75px] mx-[50px] sm:mx-[80px] sm:w-1/2">
                 <div class="flex flex-row ml-[8px]">
-                    <h1 class="text-sm font-extrabold text-blue-text">Hello, i’m Asare, </h1>
-                    <div class="border-b-[1px] w-[88px] border-blue-text ml-2"> </div>
+                    <h1 class="text-sm font-extrabold text-blue-text">Hello, i’m Asare </h1>
                 </div>
                 <div class="text-[38px] font-bold leading-[40px] mt-[47px] max-w-sm">
-                    Art Director &
-                    Product Designer
-                    <div class="text-[30px] font-normal">
+                    SOFTWARE DEVELOPER
+                    <!-- <div class="text-[30px] font-normal">
                         at PanoplyStore
-                    </div>
+                    </div> -->
                 </div>
 
-                <div class="space-x-2 mt-[45px]">
-                    <input type="button" value="ABOUT ME" class="btn-regular bg-pink-text  shadow-pink-text">
-                    <input type="button" value="WORKS" class="btn-regular bg-blue-text shadow-blue-text">
+                <div class="space-x-2 mt-[45px] ">
+                    <button
+                        class="btn-regular bg-pink-text  shadow-pink-text hover:bg-pink-400 hover:shadow-pink-300">ABOUT
+                        ME</button>
+                    <button class="btn-regular bg-blue-text shadow-blue-text hover:bg-blue-600 hover:shadow-blue-300">
+                        WORKS </button>
                 </div>
             </div>
-            <div class="mt-[30px] sm:w-1/2">
+            <div class="mt-[30px] mx-[70px] sm:mx-[80p] sm:w-1/2">
                 <img src="src/img/programmer.svg" alt="" class="px-[40px] sm:px-0">
             </div>
         </div>
     </main>
 
     <footer>
-        <div class="fixed bottom-0 w-full  sm:mt-0">
+        <div class="fixed bottom-0 w-full">
             <div
                 class="relative flex flex-row mt-[100px] justify-between text-xs text-black-text mx-[15px] mb-[15px] sm:mx-[30px] sm:mb-[32px]">
                 <div class="flex flex-row">
@@ -65,7 +67,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="max-w-[110px] text-right">
                     All right reserved &copy; Asare 2022
                 </div>
             </div>
