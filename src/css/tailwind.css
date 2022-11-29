@@ -4,12 +4,15 @@
 
 @layer components {
     .btn-link {
-      @apply text-black-text sm:text-black-text sm:hover:text-blue-text 
+      @apply text-black-text sm:text-black-text sm:hover:text-blue-text dark:text-white
     }
     .btn-regular{
         @apply p-3 font-semibold text-white w-[120px] rounded-lg shadow-lg cursor-pointer border-none outline-none
     }
    .btn-icons{
-    @apply hover:text-blue-text
+    @apply hover:text-blue-text dark:text-white
+   }
+   .display-none{
+    @apply hidden
    }
   }
