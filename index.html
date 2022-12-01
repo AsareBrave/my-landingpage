@@ -13,7 +13,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script src="src/js/script.js" type="module"></script>
-    <script src="src/js/url.js"></script>
 </head>
 
 <body class="font-['Montserrat'] dark:bg-slate-900 dark:text-white">
@@ -71,7 +70,8 @@
                     <button class="btn-regular bg-pink-text  shadow-pink-text hover:bg-pink-400 hover:shadow-pink-300"
                         onclick="goToResume()">ABOUT
                         ME</button>
-                    <button class="btn-regular bg-blue-text shadow-blue-text hover:bg-blue-600 hover:shadow-blue-300" onclick="goToGithub()">
+                    <button class="btn-regular bg-blue-text shadow-blue-text hover:bg-blue-600 hover:shadow-blue-300"
+                        onclick="goToGithub()">
                         WORKS </button>
                 </div>
                 <div class="mt-[45px] space-y-3 text-base max-w-sm">
@@ -101,8 +101,8 @@
                 <div class="flex flex-row dark:text-white">
                     Let's connect
                     <div class="space-x-2 ml-2">
-                        <a href="https://github.com/AsareBrave" target="_blank" class="btn-icons"> <i class="fa fa-github fa-lg"
-                                aria-hidden="true"></i></a>
+                        <a href="https://github.com/AsareBrave" target="_blank" class="btn-icons"> <i
+                                class="fa fa-github fa-lg" aria-hidden="true"></i></a>
                         <a href="https://mailto:asarebrave@gmail.com" target="_blank" class="btn-icons"><i
                                 class="fa fa-at fa-lg" aria-hidden="true"></i></a>
 
@@ -115,7 +115,16 @@
             </div>
         </div>
     </footer>
-    
+
 </body>
+<script>
+    function goToResume() {
+        window.open("https://docs.google.com/document/d/11V5PLv4yF7sH5IXDpZq1aZB-lFysO4TE/edit#heading=h.3znysh7");
+    }
+
+    function goToGithub() {
+        window.open("https://github.com/AsareBrave")
+    }
+</script>
 
 </html>
